@@ -1,1 +1,76 @@
 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type="text/css" media="screen" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>Front End Web Development Semi Final </title>
+</head>
+<body>
+    <div class = "form_container">
+       
+        <form action="#">
+        <div class = "form_title_container">
+            <div class="form_title"> 
+                Form Here
+        </div>
+        <span  class = "req_field">* Required Fields</span>
+    </div>
+            <div class="form_login">
+
+                <div class="input-field">
+                    <span class = "details">
+                         Name
+                    </span>
+            <input type = "text" class =" form_input form_input_error " placeholder=" Enter your name" required>
+                    <span class="form_error">Please enter your name</span>
+                </div>
+
+
+                <div class="input-field">
+                    <span class = "details">
+                        Email
+                    </span>
+            <input type = "text" class ="form_input form_input_error " placeholder="Enter your email address" input>
+            <span class="form_error">Please enter your email</span>
+             </div>
+            
+                <div class="input-field">
+                    <span class = "details">
+                        Website
+                    </span>
+            <input type = "text" class =" form_input form_input_error " placeholder="https://" >
+            <span class="form_error">Please enter your website address</span>
+            </div>
+
+            <div class="input-field">
+                <span class = "details">
+                    Message
+               </span>
+            </div>
+            <textarea type = "text" class = "textarea_field"  placeholder= "Type your message">
+            </textarea>
+
+
+
+                    <div class="button">
+                        <input type= "button" value = "Submit">
+                    </div>
+                    <span classs = "bottom_warning">Never submit passwords through this form</span>
+                </div>
+            </div>
+        </form>
+        <div class="gradient_overlay"></div>
+    </div>
+     <script src = "script.js"></script>
+</body>
+</html>
