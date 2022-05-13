@@ -1,0 +1,91 @@
+ body {
+     margin:0;
+     padding:0;
+     box-sizing:border-box;
+     background-color:#181818 ;
+     font-family:Oxygen;
+     display:flex;
+     align-items:center;
+     justify-content: center;
+     min-height:100vh;
+ }
+
+
+
+.container {
+    border-radius:5px;
+    width:400px;
+
+}
+h2 {
+    font-weight:300;
+    text-align:center;
+    color:white;
+    margin:0 0 20px;
+}
+.form {
+    padding:30px 40px;
+}
+.form-control {
+    margin-bottom:10px;
+    padding-bottom: 20px;
+    position:relative;
+    /* position set to relative so that label can be postiioned absolutely to closest ancestor  */
+}
+
+.form-control label {
+    color:#777;
+    display: block;
+    margin-bottom:5px;
+}
+.form-control input {
+    background-color: #444445;
+    display: block;
+    width:98%;
+    color:white;
+    padding-top:15px;
+    padding-bottom:15px;
+    font-size:20px;
+    outline:none;
+    border:none;
+}
+.form-control input:focus {
+    outline:0;
+    /* border-color:#777; */
+}
+
+
+ .form-control.success input {
+    border-color:green;
+}
+
+
+.form-control small {
+    color:red;
+    visibility: none;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    visibility: hidden ;
+}
+    .form-control.error small {
+        visibility: visible;
+    }
+    .form button {
+         cursor:pointer;
+         /* background-color:#ffffff; */
+         /* border:#ffffff; */
+         color:rgb(0, 0, 0);
+         display: block;
+         font-size: 20px;
+         font-weight:300;
+         padding-top:15px;
+         padding-bottom:15px;
+         margin-top:20px;
+         width:100%;
+         transition: all 1.5s ease;
+    }
+    .form button:hover {
+        background-color:none;
+        outline:2px solid #ffffff;
+    }
